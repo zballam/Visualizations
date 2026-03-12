@@ -55,11 +55,3 @@ Run just DFS:
 ```bash
 python python/cli.py --depth 5 --branching 2 --mode dfs --animate
 ```
-
-## What does not belong here
-
-- website-specific React components
-- Tailwind or portfolio layout code
-- analytics, routing, or page wiring
-
-This export is intentionally staged separately from the website UI so the algorithm work can be uploaded to GitHub cleanly.
